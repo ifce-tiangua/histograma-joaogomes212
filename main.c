@@ -8,7 +8,7 @@ void imprime_histograma(int* vendas[], int num_categorias) {
         for (int j = 0; j < *vendas[i]; j++) {
             printf("*"); // Imprime os asteriscos correspondentes
         }
-        printf("\n"); // Quebra de linha após cada categoria
+        printf("\n"); 
     }
 }
 
